@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://y136y1q4r4o4"]
+
+[node name="LoadingScreen" type="CanvasLayer" unique_id=202871092]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1820476629]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.5096737, 0.5096737, 0.5096737, 0.99607843)
+
+[node name="Label" type="Label" parent="." unique_id=724034212]
+modulate = Color(0, 0, 0, 1)
+offset_left = 580.0
+offset_top = 286.0
+offset_right = 743.0
+offset_bottom = 309.0
+text = "Collecting Stardust... "
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=901105526]
+offset_left = 35.0
+offset_top = 605.0
+offset_right = 39.0
+offset_bottom = 632.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=440657170]
